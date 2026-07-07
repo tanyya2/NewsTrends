@@ -4,8 +4,6 @@
 
 TechTrends is an application that fetches the newest tech trends from a few different sources. A user creates a profile with a list of interests. After that, the user is able to pick an article of interest and request a summary. Articles are tracked in the database to avoid showing the same article multiple times.
 
-<!-- add a sentence if feature implemented: user can see the articles he already viewed -->
-
 ## Who is it for
 
 Developers, students, and anyone interested in tech who wants a quick way to catch up on tech news without searching through multiple websites and full length articles.

@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # import requests
-import database
-import users
+import backend.database as database
+import backend.users as users
 import sqlite3
-import api_handlers
+import backend.api_handlers as api_handlers
 
 
 if __name__ == "__main__":
@@ -61,7 +61,7 @@ while True:
     # IF USERS CHOICE 1 - FETCH ARTICLES
     if choice == "1":
         # import gemini
-        import create_newsletter
+        import backend.create_newsletter as create_newsletter
             #  user inputs a number of articles
         # print("Searching...\n")
         while True:

@@ -2,5 +2,6 @@
 *.db
 *.pyc
 __pycache__/
-# venv/
-# env/
+my_notes.md
+venv/
+env/
